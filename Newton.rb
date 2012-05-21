@@ -19,7 +19,7 @@ class Newton
 				end
 				nu = (i != 0) ? rec(a[0..(a.size-2)]).to_f : @x[1].to_f
 				op = 	nu >= 0 ? " + " : " - "
-				nu = nu.abs
+				nu = nu.abs if i != 0
 				ret += op
 				ret += "#{nu}"
 				for j in 0..((i/2) - 1)
