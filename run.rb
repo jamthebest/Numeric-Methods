@@ -1,5 +1,6 @@
 require './Newton'
 require './Lagrange'
+require './Trazador'
 def opc
 	puts "---------MENU---------"
 	puts "1. Metodo de Newton"
@@ -31,6 +32,10 @@ while (op != 4)
 		when 2
 			l = Lagrange.new
 			l.run
+			
+		when 3
+			t = Trazador.new
+			t.run
 	end
 	op = menu
 end
