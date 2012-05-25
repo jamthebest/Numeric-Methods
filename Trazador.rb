@@ -33,11 +33,15 @@ class Trazador
 	end
 	
 	def cuadratica
-		
+		puts "Metodo no implementado"
 	end
 	
 	def cubica
-		
+		ret = []
+		for i in 1..((@x.size/2)-2)
+			ret [i] = []
+			
+		end
 	end
 	
 	def run
