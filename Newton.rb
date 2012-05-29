@@ -23,7 +23,9 @@ class Newton
 				ret += op
 				ret += "#{nu}"
 				for j in 0..((i/2) - 1)
-					ret += "(x-#{@x[j*2]})"
+					op = 	@x[j*2].to_f <= 0 ? "+" : "-"
+					nu = @x[j*2].to_f.abs
+					ret += "(x#{op}#{nu})"
 				end
 				i += 2
 			end

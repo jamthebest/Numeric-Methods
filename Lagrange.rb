@@ -21,7 +21,7 @@ class Lagrange
 		deno = 1.0
 		for j in (0..@n)
 			if(i != j)
-				num += "(x#{@x[j*2].to_f < 0 ? "+" : "-"}#{@x[j*2]})"
+				num += "(x#{@x[j*2].to_f < 0 ? "+" : "-"}#{@x[j*2].to_f.abs})"
 				deno *= (@x[i*2].to_f - @x[j*2].to_f)
 			end
 		end
