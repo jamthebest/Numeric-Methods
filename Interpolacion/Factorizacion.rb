@@ -31,6 +31,7 @@ class Factorizacion
 				l[j][i] = i <= j ? (((1/u[i][i])*(ma[j][i] - sum)).round 4) : 0.0
 			end
 		end
+		puts "l = #{l}u = #{u}\n"
 		y = []
 		for i in 0..(ma.size-1)
 			y[i] = 0.0
