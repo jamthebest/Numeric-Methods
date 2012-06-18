@@ -46,7 +46,34 @@ public class Funcion {
         try{
             re = j.parse(f);  //esta funcion parse es la que en si hace el proceso de la evaluacion de la expresion
         } catch (ParseException ex) {
-            JOptionPane.showMessageDialog(null, "Función Incorrecta", "ERROR", 0);
+            
+        }
+        val = (j.evaluate(re)).toString();
+        return Double.parseDouble(val);
+    }
+    
+    public Double Evaluar(double x, double y) throws ParseException{
+        Node re = null;
+        String val="No";
+        j.addVariable("x", x);
+        j.addVariable("y", y);
+        try{
+            re = j.parse(f);  //esta funcion parse es la que en si hace el proceso de la evaluacion de la expresion
+        } catch (ParseException ex) {
+            
+        }
+        val = (j.evaluate(re)).toString();
+        return Double.parseDouble(val);
+    }
+    
+    public Double EvaluarZ(double x) throws ParseException{
+        Node re = null;
+        String val="No";
+        j.addVariable("z", x);
+        try{
+            re = j.parse(f);  //esta funcion parse es la que en si hace el proceso de la evaluacion de la expresion
+        } catch (ParseException ex) {
+            
         }
         val = (j.evaluate(re)).toString();
         return Double.parseDouble(val);
@@ -65,7 +92,7 @@ public class Funcion {
             //Convertimos el valor simplificado en un String
             derivada =j.toString(simp);
         }catch(ParseException e){ 
-            JOptionPane.showMessageDialog(null, "Función Incorrecta!", "ERROR", 0);
+            
         }
         return derivada;
     }
