@@ -1,0 +1,51 @@
+Esta es una colección de los métodos numéricos que Ví en la clase de Métodos Numéricos.
+Los lenguajes de programación utilizados fueron Java(programando en Netsbeans) y Ruby.
+Las carpetas MetodosNumericos e Integracion pertenecen al leguaje Java, mientras que la carpeta restante fué programada con el lenguaje Ruby.
+
+La carpeta MetodosNumericos contiene los temas del primer parcial que corresponden a los metodos para resolver ecuaciones numéricamente.
+Entre estos temas se encuantran:
+	Métodos Cerrados
+1- Método de Bisección
+2- Método de Falsa Posición
+
+	Métodos Abiertos
+1- Método del Punto Fijo
+2- Newton-Raphson
+3- Método de la Secante
+4- Método para las Raices Múltiples
+
+
+La carpeta Interpolacion corresponde a los metodos vistos en el segundo parcial de la clase que corresponden a los metodos para Interpolar y resolver sistemas de ecuaciones mediante factorizacion LU.
+Entre los temas que se encuentran en esta carpeta están:
+	Interpolación:
+1- Método de Newton
+2- Método de Lagrange
+3- Método de los Trazadores:
+	a- Interpolación Lineal Mediante Trazadores
+	b- Interpolación Cúbica Mediante Trazadores
+	
+Resolución de Sistemas de Ecuaciones
+1- Factorización LU
+
+
+Finalmente en la carpeta Integracion se encuentran los programas que corresponden a los temas del tercer parcial que se basa en la integración mediante métodos numéricos, Hacer ajuste de datos(construir una función que modele el comportamiento de un conjunto de datos) y Resolución de Ecuaciones Diferenciales.
+Entre los temas vistos se realizaron los siguientes programas:
+	Integración Numérica:
+1- Regla del Trapecio
+2- Regla de Simpson
+3- Cuadratura de Gauss
+
+	Ajuste de Datos:
+1- Mínimos Cuadrados:
+	a- Regresión:
+		i- Regresión Polinómica
+		
+	Resolución de EDO's
+1- Método de Euler
+2- Método de Taylor de Orden n
+3- Método de Runge-Kutta de Cuarto Orden
+
+
+Este ha sido un pequeño resume de lo que se encuentra en este paquete de programas.
+Ha sido creado por Javier Midence.
+Fecha de Conclusión de programas 18-Jun-2012
