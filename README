@@ -1,5 +1,5 @@
-Esta es una colección de los métodos numéricos que Ví en la clase de Métodos Numéricos.
-Los lenguajes de programación utilizados fueron Java(programando en Netsbeans) y Ruby.
+Esta es una colección de los Métodos Numéricos que ví en la clase con el mismo nombre.
+Los lenguajes de programación utilizados fueron Java(programando en Netbeans) y Ruby.
 Las carpetas MetodosNumericos e Integracion pertenecen al leguaje Java, mientras que la carpeta restante fué programada con el lenguaje Ruby.
 
 La carpeta MetodosNumericos contiene los temas del primer parcial que corresponden a los metodos para resolver ecuaciones numéricamente.
@@ -10,7 +10,7 @@ Entre estos temas se encuantran:
 
 	Métodos Abiertos
 1- Método del Punto Fijo
-2- Newton-Raphson
+2- Método de Newton-Raphson
 3- Método de la Secante
 4- Método para las Raices Múltiples
 
